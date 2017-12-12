@@ -15,7 +15,7 @@ public class TryWithResourcesTest {
             e.printStackTrace();
         } finally {
             try {
-                if (reader != null) {
+                if ( null) {
                     reader.close();
                 }
             } catch (IOException e) {
